@@ -1,0 +1,208 @@
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 0px auto;
+   	width: 100%;
+	padding: 5px;
+	background-color: #eee;
+	border: solid 1px #ddd;
+	font-size: 13px;
+}
+footer span{
+	color:white;
+}
+iframe{
+	height: 100%;
+	width: 90%;
+	min-height: 800px;
+	border:none;
+	overflow: hidden;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 auto;
+	min-height: 650px;
+	width: 100%;
+	border-top: solid 5px #1978A0;
+/*	background-color: rgba( 153, 204, 204,0.8);*/
+	overflow: hidden;
+}
+.container >aside>nav>.logo{
+	display: block;
+    height: 20%;
+    width: 100%;
+    z-index: -1;
+}
+.container >aside>nav>.logo>img{
+	height: 90%;
+	width: 80%;
+	z-index: -1;
+}
+.container >aside>nav>.logo>p{
+    width: 100%;
+    text-align: center;
+	padding: 1px;
+	color: white;
+	z-index: -1;
+}
+.container >aside{
+	width: 15%;
+	background-color: #336699;
+	z-index: 1000;
+}
+.container >aside>h2{
+	width: 100%;
+	height: 40px;
+	line-height: 2;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	background-color: #1978A0;
+}
+.container  >aside >nav{
+	width: 100%;
+	height: 100%;
+	background-color: #336699;
+	text-align: center;
+}
+.container >aside >nav >ul{
+	width: 100%;
+	height: 70%;
+	background-color: #336699;
+	z-index: 100;
+}
+.container >aside >nav >ul >li{
+	width: 100%;
+	min-height: 30px;
+	margin: 5px auto;
+	line-height: 2;
+	padding: 3px;
+	background-color: #3366FF;
+	color: white;
+	z-index: 100;
+}
+.container >aside >nav >ul >li>ul{
+	background-color: #336699;
+	display: none;
+	width: 100%;
+	z-index: 100;
+	-webkit-transition:.5s ease-in-out;
+         -o-transition:.5s ease-in-out;
+            transition:.5s ease-in-out;
+}
+.container >aside >nav >ul >li>ul>li{
+	border: solid 1px #3366FF;
+}
+.container >aside >nav>ul>li>span{
+	display: block;
+	width: 100%;
+	border: solid 1px #336699;
+}
+.container >aside >nav >ul>li:hover{
+	cursor: pointer;
+}
+.container >aside >nav >ul >li>ul>li a{
+	color: #aaa;
+}
+.container >aside >nav >ul >li>ul>li a:hover{
+	color: white;
+}
+.container>section{
+	margin: 0px auto;
+	width: 90%;
+	min-height: 400px;
+	text-decoration: center;
+
+}
+.container>section>.position{
+    width: 100%;
+    height: 35px;
+    padding-left: 20px;
+    border: solid 3px #336699;
+    line-height: 2;
+    color: #3366FF;
+    background-color: #ccc;
+}
+.container>section>.position >p{
+    font-size: 16px;
+}
+
+.admin-tip{
+	padding:20px;
+	margin: 30px auto;
+	width: 80%;
+	background-color: white;
+	border:solid 2px #ddd;
+	text-align: center;
+		color: #336699;
+}
+.admin-tip h1,h3{
+	margin: 50px auto;
+}
+.admin-tip h3{
+	color:rgb(216,5,48);
+}
+.normal-form{
+	margin: 5px auto;
+	margin-top: 20px;
+	width: 100%;
+	height: 100%;
+}
+
+.container>section>.normal-form > .tip{
+	color: red;
+	font-size: 20px;
+}
+.container>section>.content>h4{
+	height: 40px;
+	width: 100%;
+	margin: 10px auto;
+	text-align: center;
+	font-size: 20px;
+}
+
+.order-list{
+	margin: 10px auto;
+	width: 90%;
+}
+.order-list tr td>span{
+	color: red;
+	font-size: 20px;
+}
+.order-list .good-imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 5px;
+	max-width: 400px;
+}
+.order-list .good-imgs>a{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-content: center;
+    align-items: center; 
+    margin: 2px;
+}
+.order-list tr td>input{
+	margin: 10px auto;
+}
+.order-list tr td>select{
+	width: 110px;
+}
+.order-list tr td>label{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.order-list+.btn{
+	margin: 10px auto;
+	margin-right: 100px;
+	width: 10%;
+	float: right;
+}

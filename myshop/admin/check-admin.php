@@ -1,0 +1,11 @@
+<?php
+if(isset($_COOKIE['admin']))
+{
+	$admin=$_COOKIE['admin'];
+	$adminInfo="<a>管理员：{$admin}<a>";
+}
+else
+{
+	header("location:loginAdmin-form.php");	
+}
+?>

@@ -1,0 +1,53 @@
+.container>.good-detail{
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	margin: 50px auto;
+	width: 95%;
+	min-height: 500px;
+}
+.container>.good-detail>img{
+	width: 35%;
+	min-height: 400px;
+}
+.container>.good-detail>#detail{
+	margin-right:100px ;
+	background-color: #eee;
+	width: 35%;
+}
+.container>.good-detail>#detail tr:first-child th{
+	text-align: center;
+	border-bottom: solid 2px #286090;
+}
+.container>.good-detail>#detail tr th{
+    font-size: 20px;
+    text-align: left;	
+}
+.container>.good-detail>#detail tr td{
+	text-align: left;
+}
+.container>.good-detail>#detail tr >td:first-child{
+    min-width: 80px;
+    color:#666;
+    text-align: right;
+}
+.container>.good-detail>#detail tr:last-child{
+	border-top: solid 2px #286090;
+}
+.price{
+	font-size: 25px;
+	color: #FF9900;
+}
+.discount{
+	font-size: 25px;
+	color: #FF0000;
+}
+#number{
+	width: 70px;
+	height: auto;
+	text-align: center;
+}
+.container>.good-detail>#detail tr .btn{
+	margin:10px 40%;
+}
+
